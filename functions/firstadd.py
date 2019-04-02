@@ -1,4 +1,4 @@
-import functions.firstsubtract
+import functions.FirstSubtract
 
 
 class FirstAdd:
@@ -7,7 +7,7 @@ class FirstAdd:
 
     def sum(self,a,b):
         add = a + b
-        print(add)
+        print("two values added:", add)
 
 
 
@@ -17,9 +17,10 @@ if __name__ == '__main__':
     obj1.sum(2, 3)
     
     FirstAdd.sum(obj1,3,4)
-    ob2sub = functions.firstsubtract.FirstSubtract(6,5)
+    ob2sub = functions.FirstSubtract.FirstSubtract(6, 5)
     ob2sub.sub(6,4)
-
+    obj3sub = functions.FirstSubtract.FirstSubtract(7,8) # (first no should be large a-b)
+    obj3sub.sub(7,8)
 
 
 
